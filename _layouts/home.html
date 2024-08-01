@@ -9,7 +9,7 @@ layout: default
 <p> Ultimi Articoli:</p>
   <ul>
     {%- for post in site.posts -%}
-    {%- if post.pinned == t  -%}
+    {%- if post.pinned -%}
     <li>
       <!-- {%- assign date_format = "%Y-%m-%d" -%} -->
       {%- assign date_format = "%d-%m-%Y" -%}
