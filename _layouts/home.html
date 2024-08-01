@@ -13,7 +13,7 @@ layout: default
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
 
       category:
-      <p class="{{ post.categories }}">{{ post.categories }}</p>
+      <b class="{{ post.categories }}">{{ post.categories }}</b>
     </li>
     {%- endfor -%}
   </ul>
