@@ -14,7 +14,7 @@ $container-max-width:  900px !default;
 /**
  * Global
  */
- .logo { float: left !important; font-size: 28px !important; }
+ .logo { float: left !important; font-size: 28px !important; font-weight: bold !important;}
  .logo a { text-decoration: none !important; }
 
 body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
