@@ -47,6 +47,21 @@ footer { margin-bottom: 20px; }
 /**
  * Header/Navigation
  */
+
+
+ .web3 {
+    color: purple !important;
+  }
+  
+.tech {
+    color: yellow !important;
+  }
+  
+.blockchain {
+    color: green !important;
+  }
+
+
 .logo { float: left !important; font-size: 28px !important; }
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
@@ -69,18 +84,6 @@ input[type=submit]:hover { color: var(--background-color); background-color: var
 textarea { vertical-align: top; }
 
 
-
-.web3 {
-    color: purple !important;
-  }
-  
-.tech {
-    color: yellow !important;
-  }
-  
-.blockchain {
-    color: green !important;
-  }
 
 
 /**
