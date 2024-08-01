@@ -9,6 +9,9 @@ header_pages:
   #- about.md
   #- contact.md
 
+paginate: 5
+paginate_path: "/page:num/"
+
 
 style: dark
 
