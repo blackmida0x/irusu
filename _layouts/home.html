@@ -13,9 +13,7 @@ layout: default
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
 
       categories:
-      {%- for category in post.categories -%}
-      <span data-category="{{ category | downcase }}">{{ category }}</span>{% if forloop.last == false %}, {% endif %}
-      {%- endfor -%}
+      <span class="{{ post.categories }}">{{ category }}</span>
     </li>
     {%- endfor -%}
   </ul>
