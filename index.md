@@ -1,5 +1,5 @@
 ---
-title: /home
+title: /blackmida
 layout: home
 permalink: /
 ---
