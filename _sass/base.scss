@@ -70,17 +70,17 @@ textarea { vertical-align: top; }
 
 
 
-:root {
-    --color-web3: purple;
-    --color-tech: yellow;
-    --color-blockchain: green;
-    /* Aggiungi altre variabili per altre categorie */
+[data-category="web3"] {
+    color: purple;
   }
   
-  .category {
-    color: inherit;
+  [data-category="tech"] {
+    color: yellow;
   }
   
+  [data-category="blockchain"] {
+    color: green;
+  }
 
 
 /**

@@ -14,7 +14,7 @@ layout: default
 
       categories:
       {%- for category in post.categories -%}
-      <span class="category" style="color: var(--color-{{ category | downcase }});">{{ category }}</span>{% if forloop.last == false %}, {% endif %}
+      <span data-category="{{ category | downcase }}">{{ category }}</span>{% if forloop.last == false %}, {% endif %}
       {%- endfor -%}
     </li>
     {%- endfor -%}
