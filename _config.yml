@@ -12,7 +12,7 @@ header_pages:
 
 style: dark
 
-footer: '<a href="https://twitter.com/">twitter</a> | <a href="https://twitter.com/">Github</a> | <a href="https://twitter.com/">Mirror</a>'
+footer: '<a href="https://x.com/">X</a> | <a href="https://github.com/">GitHub</a> | <a href="https://medium.xyz/">Mirror</a>'
 
 # Build settings
 markdown: kramdown
