@@ -14,6 +14,9 @@ $container-max-width:  900px !default;
 /**
  * Global
  */
+ .logo { float: left !important; font-size: 28px !important; }
+ .logo a { text-decoration: none !important; }
+
 body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
 h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
 p, ul, ol { margin: 0px;  color: var(--text-color); }
@@ -51,8 +54,7 @@ footer { margin-bottom: 20px; }
 
 
 
-.logo { float: left !important; font-size: 28px !important; }
-.logo a { text-decoration: none; }
+
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px;}
