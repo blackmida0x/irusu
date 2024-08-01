@@ -61,7 +61,7 @@ footer { margin-bottom: 20px; }
     color: green !important;
   } 
 
-.logo { float: left !important; font-size: 28px !important; }
+.logo { float: left !important; font-size: 28px !important; text-decoration:none !important;}
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px;}
