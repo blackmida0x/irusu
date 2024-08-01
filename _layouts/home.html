@@ -6,7 +6,7 @@ layout: default
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
 {%- if site.posts.size > 0 -%}
-<p> Ultimi Articoli:</p>
+<p>Articoli in evidenza:</p>
   <ul>
     {%- for post in site.posts -%}
     {%- if post.pinned -%}
@@ -23,3 +23,5 @@ layout: default
     {%- endfor -%}
   </ul>
 {%- endif -%}
+
+<a href="{{ post.url | relative_url }}"> 👉 Tutti gli Articoli </a>
