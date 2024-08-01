@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "blockchain..."
-date:   2024-08-02 09:32:45 +0100
+date:   2024-08-02
 categories:
 ---
 
