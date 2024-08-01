@@ -12,8 +12,8 @@ layout: default
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
 
-      categories:
-      <span class="{{ post.categories }}">{{ post.categories }}</span>
+      category:
+      <p class="{{ post.categories }}">{{ post.categories }}</p>
     </li>
     {%- endfor -%}
   </ul>
