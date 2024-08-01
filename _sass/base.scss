@@ -6,10 +6,10 @@
  */
 $base-font-family:     'Source Code Pro', monospace !default;
 $base-font-size:       15px !default;
-$mobile-font-size:     13px !default;
+$mobile-font-size:     10px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
-$container-max-width:  800px !default;
+$container-max-width:  900px !default;
 
 /**
  * Global
@@ -64,7 +64,7 @@ footer { margin-bottom: 20px; }
 .logo { float: left !important; font-size: 28px !important; }
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
-.menu ul li { display: inline;  margin-left: 10px; }
+.menu ul li { display: inline;  margin-left: 10px; margin-bottom: 5px;}
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
 
