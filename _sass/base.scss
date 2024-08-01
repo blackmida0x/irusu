@@ -49,25 +49,19 @@ footer { margin-bottom: 20px; }
  */
 
 
- .web3 {
-    color: purple !important;
-  }
-  
-.tech {
-    color: yellow !important;
-  }
-  
-.blockchain {
-    color: green !important;
-  } 
 
-.menu logo { float: left !important; font-size: 28px !important; }
+
+.logo { float: left !important; font-size: 28px !important; }
 .menu logo a { text-decoration: none !important; }
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px;}
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
+
+.web3 { color: purple !important; }
+.tech { color: yellow !important; }  
+.blockchain { color: green !important; } 
 
 /**
  * Form
