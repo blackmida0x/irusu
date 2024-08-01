@@ -3,31 +3,19 @@ layout: default
 ---
 
 {{ content }}
-{% assign contentwonl = content | strip_newlines %}
-{% unless contentwonl == "" %} <br /> {% endunless %}
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
-{%- if paginator.posts.size > 0 -%}
+{%- if site.posts.size > 0 -%}
 <p>Articles:</p>
   <ul>
-    {%- for post in paginator.posts -%}
+    {%- for post in site.posts -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+
       category:
-      <b class="{{ post.categories }}">{{ post.categories | join: ', ' }}</b>
+      <b class="{{ post.categories }}">{{ post.categories }}</b>
     </li>
     {%- endfor -%}
   </ul>
-
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}">Previous</a>
-    {% endif %}
-    {% for page in (1..paginator.total_pages) %}
-      <a href="{{ paginator.page_path page }}">{{ page }}</a>
-    {% endfor %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}">Next</a>
-    {% endif %}
-  </div>
 {%- endif -%}
