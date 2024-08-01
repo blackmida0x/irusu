@@ -9,6 +9,7 @@ layout: default
 <p> Ultimi Articoli:</p>
   <ul>
     {%- for post in site.posts -%}
+    {%- if post.pinned == t  -%}
     <li>
       <!-- {%- assign date_format = "%Y-%m-%d" -%} -->
       {%- assign date_format = "%d-%m-%Y" -%}
@@ -18,6 +19,7 @@ layout: default
       <b class="{{ post.categories }}">{{ post.categories }}</b>
       <p></p>
     </li>
+    {%- endif -%}
     {%- endfor -%}
   </ul>
 {%- endif -%}
