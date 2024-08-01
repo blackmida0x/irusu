@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "benvenuto-al-nuovo-blog"
-date:   2024-08-02 09:32:45 +0100
-categories:
+title: "Il tuo titolo"
+date: 2024-08-03 10:00:00 +0200
 ---
 
 # Blockchain
