@@ -5,7 +5,7 @@ url: "https://blackmida0x.github.io"
 
 header_pages:
   - index.md
-  #- peter.md
+  - lab.md
   #- about.md
   #- contact.md
 
