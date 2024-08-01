@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...
+title:  📌 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...
 date: 2024-02-01 09:00:00 +0100
 categories: coding
-pinned: false
+pinned: true
 ---
 
 # Viva la Vulva!
