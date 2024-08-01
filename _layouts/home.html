@@ -11,7 +11,11 @@ layout: default
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      categories: {{ post.categories }}
+
+      categories:
+      {%- for category in post.categories -%}
+      <span class="category" style="color: var(--color-{{ category | downcase }});">{{ category }}</span>{% if forloop.last == false %}, {% endif %}
+      {%- endfor -%}
     </li>
     {%- endfor -%}
   </ul>

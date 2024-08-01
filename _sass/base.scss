@@ -68,6 +68,21 @@ input[type=submit]:hover { color: var(--background-color); background-color: var
 *:focus { outline: none; }
 textarea { vertical-align: top; }
 
+
+
+:root {
+    --color-web3: purple;
+    --color-tech: yellow;
+    --color-blockchain: green;
+    /* Aggiungi altre variabili per altre categorie */
+  }
+  
+  .category {
+    color: inherit;
+  }
+  
+
+
 /**
  * Code and syntax highlighting
  */
