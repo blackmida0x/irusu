@@ -2,7 +2,7 @@
 layout: post
 title: blockchain
 date: 2024-08-01 09:00:00 +0100
-categories: web3-blockchain-solidity
+categories: web3
 ---
 
 # Viva la Vulva!
