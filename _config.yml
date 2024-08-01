@@ -1,15 +1,18 @@
-# Example Site settings
-
-#google_analytics: UA-NNNNNNNN-N
+title: 'blackmida0x.github.io'
+description: "Tech hub"
+baseurl: "/web_blog"
+url: "https://blackmida0x.github.io"
 
 header_pages:
   - index.md
-  - about.md
+  #- peter.md
+  #- about.md
+  #- contact.md
+
+style: dark
 
 footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-style: dark
-listen_for_clients_preferred_style: false
-
-plugins:
-  - jekyll-seo-tag
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
